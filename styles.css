@@ -88,8 +88,11 @@ nav {
     padding: 0 20px;
 }
 
-.logo {
-    width: 50px;
+.nav__logo {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
 }
 
 .nav__link--list {
@@ -549,9 +552,11 @@ footer {
     align-items: center;
 }
 
-.footer__logo--img {
-    width: 70px;
-    filter: invert(1);
+.footer__logo {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .footer__social--list {
@@ -595,7 +600,8 @@ footer {
 .dark-theme .section__title,
 .dark-theme .section__subtitle,
 .dark-theme .header__para,
-.dark-theme .nav__link--anchor {
+.dark-theme .nav__link--anchor,
+.dark-theme .nav__logo {
     color: white;
 }
 
